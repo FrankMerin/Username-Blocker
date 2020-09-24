@@ -1,0 +1,16 @@
+#buttonOverlay {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: blue;
+  font-weight: bolder;
+  font-size: 14;
+  text-align: right;
+}
