@@ -2,7 +2,7 @@
   top: 0px;
   left: 0px;
   position: absolute;
-  z-index: 2;
+  z-index: 9999;
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
