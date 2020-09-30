@@ -1,7 +1,6 @@
 let inputs = document.querySelectorAll(
-  'input[name="user"], input[name="username"], input[name="email"], input[name="userID"], \
-  input[id="user"], input[id="username"], input[id="email"], input[ud="userID"], \
-  input[name=userLoginId]'
+  'input[name*="user"][type="text"], input[name*="email"][type="text"], input[name*="login"][type="text"], \
+  input[id*="user"][type="text"], input[id*="email"][type="text"], input[id*="login"][type="text"]'
 );
 
 for (const node of inputs) {
