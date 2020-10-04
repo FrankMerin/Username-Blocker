@@ -6,7 +6,12 @@
     <script src="popup.js"></script>
   </head>
   <body id="body-username-blocker">
-    <button type="button" id="UsernameBlockerSwitch">Enable Username Blocking</button>
-    <button type="button" id="targetWordSwitch">Enable Target Word Hiding</button>
+    <button class="iBlockButton" type="button" id="UsernameBlockerSwitch">Enable Username Blocking</button>
+    <button class="iBlockButton" type="button" id="targetWordSwitch">Enable Target Word Hiding</button>
+    <button class="iBlockButton" type="button" id="addTargetWord">+</button>
+    <form class="WordReplacement">
+      <input class="WordReplacement" type="text" id="wordToReplace" name="wordToReplace" />
+      <input class="WordReplacement" type="text" id="wordToReplaceWith" name="wordToReplace" />
+    </form>
   </body>
 </html>
